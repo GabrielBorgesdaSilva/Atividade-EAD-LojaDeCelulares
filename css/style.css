@@ -1,0 +1,111 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6b757f;
+    color: #ffffff;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menus */
+.menu-principal {
+    background-color: #001b35;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-principal ul, .menu-marcas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal li, .menu-marcas li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-marcas {
+    background-color: #00162b;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-marcas p {
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.menu-marcas a {
+    color: #003366;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #003366;
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #999999;
+}
+
+.imagem-loja {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.produto {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333333;
+}
+
+.produto p {
+    text-align: left;
+}
+
+/* Rodapé */
+footer {
+    background-color: #00162b;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.coluna-rodape {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin-right: 1%;
+}
+
+.coluna-rodape ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.coluna-rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.coluna-rodape a:hover {
+    text-decoration: underline;
+}
